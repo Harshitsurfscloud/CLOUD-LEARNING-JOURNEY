@@ -1,0 +1,13 @@
+Learned:- 
+11. Git rm - (use to remove or delete files, directory etc).
+
+12. Git ignore - tells git not to track these file, It create a git ignore file that takes all the items 
+    that must be ignored 
+
+13. Git Branches - Can create multiple branch and work on them if all thing ae good in secondary branch can connect to the main branch 
+    Git Switch - use to switch among branches 
+    Git merge -  use merge branches from secondary to main branch
+
+14.  Git Push - use to push projects on git hub.
+     copy the URL and paste in the bash then push it to HUB. (Online Repository)
+     MAIN FUNCTION
