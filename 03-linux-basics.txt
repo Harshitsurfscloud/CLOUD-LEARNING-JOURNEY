@@ -1,0 +1,47 @@
+Learned:- 
+1. What is Linux?
+   -> Is a operating system used to manage computers and servers.
+   -> Most cloud servers run Linux.
+   -> Stable, secure and efficient.
+
+2. Why important for Linux?
+   -> Most cloud servers run Linux.
+   -> It allows control through the terminal.
+   -> Used in services like AWS servers.
+
+3.  Two types of interfaces.
+    -> GUI and CLI 
+
+4. File system in Linux.
+   -> Linux is a tree like structure. The slash represents the root node
+
+5. These are the commands I learned in linux.
+   a. ls - list all the files and folders.
+   b. ls -A - list all the hidden files and folders along with (ls).
+   c. pwd - print the currrent working directory. 
+   d. cd - change the current working directory.
+   e. mkdir - used to create a folder or directory.
+   f. cp - copy the path 
+   g. mv - use to move a file or folder.
+   h. touch - use to create a file.
+   [I have done the practical for all of these command and more are below]
+
+6. Users -> There are two types of users.
+   a. Regular user - they can do anything in their home directory every regular user have its own home dirctory.
+   b. Root user - they have the full access to all the files and directory.
+
+7. Paths -> a. Absolute and Relative path 
+
+8. More commands I have learned - 
+   a. sudo get update - list all the updates.
+   b. ls -R - list all the content recursivley.
+   c. touch. - to make hidden files.
+   d. clear - clear the terminal.
+   e. history - to show the command used history.
+   f. chmod - 
+
+9. SSH (secured shell) - helps two device to communicate and share data. (can access linux server remotly).
+   basically you can access server with the SSH keys 
+   -> SSH username @ IP
+
+10. User Permissions - 
