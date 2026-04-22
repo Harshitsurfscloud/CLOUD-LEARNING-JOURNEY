@@ -1,0 +1,43 @@
+Learned:-
+1. IP Address-
+   -> Use to identify a device in server or anywhere on the internet. Each device as a unique IP address of its own.
+   -> The Ip adress is generated through  IPV4. Example - 127.154.65.4
+      every digit after or brfore the dots are in between 0-255
+
+    -> It is because the computer understand bits and bytes 
+       1 byte = 8 bits and 8 bites can hold up till 255 
+       Ip address is of 4 bytes so in total 32 bites.
+
+2. Subnet- 
+   -> Divide the main network in two parts one is secured and other is public network
+      Two types of subnet are there:-
+      a. Public - Have access to internet 
+      b. Private - Isolated
+
+       Futher we have CIDR range - 
+       It helps to provide numbers of IP adress to a private subnet.
+
+3. Ports- 
+   -> Port is a uniquie identification for application and websites and IP address of machine from you want to access.
+
+4. OSI Model-
+   -> use to understand how data travels from one computer to other.
+      It has total of 7 layers- 
+      7. Application
+      6. Presentation
+      5. Session
+      4. Transport
+      3. Network
+      2. Data Link
+      1. Physical
+
+5. DNS (Domain name system)-
+   -> Converts the domain name into IP adress. It is a web like structure that maps every website to an IP adress.
+
+6. Firewalls-
+   -> It is a security system that controls traffic on the internet and the and the local network
+      what is allowed to pass and   what to block
+
+7. HTTP/HTTPS - 
+   -> standard protocol for tranfersing data over the internet.
+    
