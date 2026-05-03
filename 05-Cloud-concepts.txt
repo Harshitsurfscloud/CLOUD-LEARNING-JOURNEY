@@ -1,0 +1,76 @@
+Learned:-
+1. Virtualization
+   -> Virtualization means one physical computer (with CPU, RAM, ROM, Network) can have many Virtual Machines (VMs), like a building with multiple rooms.
+      This is done using a hypervisor (software).
+   -> In cloud:
+      EC2 instance → you are creating a Virtual Machine.
+
+   -> Types of Hypervisors:
+       1. Bare Metal (Hardware → Hypervisor → OS,Linux,Windows)
+       2. Host OS (OS → Hypervisor → OS,Linux,Windows)
+
+2. Regions & Availability Zones (AZ)
+   -> Region:
+       A geographical location like Mumbai, Europe.
+   ->Availability Zone (AZ):
+       Different data centers inside a particular region.
+
+3. Types of Cloud Computing
+   -> Cloud Models:
+      - IaaS
+      - PaaS
+      - SaaS
+      - On-Premise (handled fully by user)
+   -> SaaS (Software as a Service)
+       Whole work is done by third party.
+       Example: Gmail, Google Docs
+   -> PaaS (Platform as a Service)
+       You use or borrow someone else's platform to deploy code.
+       Examples: AWS, Azure
+   -> IaaS (Infrastructure as a Service)
+       Backend service from cloud. You manage infrastructure.
+    
+    Pizza Example:
+     - SaaS → Whole pizza made by Domino’s  
+     - PaaS → You bring toppings, rest handled  
+     - IaaS → You only use oven  
+    Cloud Types:
+     - Public
+     - Private
+     - Hybrid
+
+4. Billing Overview
+   -> Run a service for 1 hour → Pay for 1 hour
+      Cost depends on how much you use the services.
+
+5. Mapping AWS Services
+
+   -> EC2
+      AWS gives EC2 → Virtual computer on cloud  
+      You can:
+      - Install Linux  
+      - Run code  
+      - Host applications  
+
+   -> S3
+     Storage service:
+     Save files  
+     Upload / Download / Store  
+
+   -> RDS
+     Database:
+     Structured data storage  
+    Note:
+     S3 is unstructured storage.
+
+6. Services Offered by Cloud
+     - Compute Services  
+     - Storage Services  
+     - Database Services  
+     - Networking  
+     - Containers  
+     - Serverless  
+     - Machine Learning  
+     - IAM (Identity & Access Management)
+
+7. I also learned about AWS and what it is used for and created my free AWS account 
