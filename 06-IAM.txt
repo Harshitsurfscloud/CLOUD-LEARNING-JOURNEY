@@ -1,0 +1,65 @@
+Learned:-
+
+1. IAM (Identity and Access Management)-
+   -> Used to control access in AWS.
+   -> It decides:
+   - Who can login
+   - What they can do
+   -> Provides security to AWS account.
+
+2. IAM Users-
+   -> Represents a person or application using AWS.
+   -> Each user has:
+     - Username
+     - Password
+   -> Example:
+     - Admin user
+     - Developer user
+   -> Best practice:
+      Do not use root account, create IAM users.
+
+3. IAM Groups-
+   -> Collection of users.
+   -> Used to assign permissions to multiple users at once.
+   -> Example:
+     - Developers group
+     - Testers group
+   -> Instead of giving permission to each user, assign to group.
+
+4. IAM Policies-
+   -> Rules that define permissions.
+   -> It tells:
+     - What action is allowed
+     - What action is denied
+   -> Written in JSON format.
+   -> Example:
+     - Allow EC2 access
+     - Deny S3 delete
+
+5. IAM Roles-
+   -> Used by AWS services (not for users).
+   -> Provides temporary access.
+   -> No username or password required.
+   -> Example:
+     - EC2 accessing S3
+     - Lambda accessing database
+
+6. MFA (Multi-Factor Authentication)-
+   -> Adds extra security.
+
+   -> Login requires:
+     - Password
+     - OTP (One Time Password)
+   -> Protects account from unauthorized access.
+
+Summary:-
+-> IAM controls access in AWS
+-> User = person
+-> Group = collection of users
+-> Policy = permission rules
+-> Role = access for AWS services
+-> MFA = extra security layer
+
+HANDS ON - 
+-> Created a user , group , understood the Dashborad of IAM.
+ 
