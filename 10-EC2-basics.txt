@@ -1,0 +1,118 @@
+Learned:-
+
+1. EC2 (Elastic Compute Cloud)-
+   -> EC2 is a cloud service in AWS used to create virtual servers called instances.
+   -> It helps us run applications and websites on cloud without buying physical computers.
+   -> We can configure:
+      - Operating System
+      - RAM
+      - CPU
+      - Storage
+      - Network
+
+   -> EC2 = AWS Service
+   -> Instance = Actual virtual server created inside EC2
+
+2. Instance-
+   -> A virtual machine/server running in AWS cloud.
+   -> Used to host:
+      - Websites
+      - Applications
+      - Services
+
+3. AMI (Amazon Machine Image)-
+   -> Pre-configured template used to launch EC2 instances.
+   -> Contains:
+      - Operating System
+      - Software
+      - Configuration
+
+   Example:
+      - Linux AMI
+      - Windows AMI
+
+4. Key Pair-
+   -> Used to securely connect to EC2 instance.
+   -> Contains:
+      - Public Key
+      - Private Key
+
+   -> Private key is stored in user computer.
+   -> Used while connecting through SSH or PuTTY.
+
+5. Security Groups-
+   -> Virtual firewall for EC2 instance.
+   -> Controls who can access the server.
+
+   Types of rules:
+
+   a. Inbound Rules-
+      -> Controls incoming traffic to server.
+      Example:
+         - SSH (Port 22)
+         - HTTP (Port 80)
+
+   b. Outbound Rules-
+      -> Controls outgoing traffic from server.
+
+6. SSH-
+   -> Secure method used to remotely connect with EC2 instance.
+   -> Used through:
+      - AWS browser terminal
+      - PuTTY
+      - Command line
+
+7. HTTP-
+   -> Protocol used to access websites from browser.
+   -> Port 80 is used for HTTP traffic.
+
+8. Advanced Options / User Data-
+   -> Used to run scripts automatically while launching EC2 instance.
+   -> Helps automate setup process.
+
+9. Scripts vs Terminal-
+
+   a. Scripts-
+      -> Automatic setup
+      -> Commands run automatically
+
+   b. Terminal-
+      -> Manual control of server
+      -> Used to install software and manage applications
+
+10. Instance Type-
+    -> Defines how powerful the virtual machine is.
+    -> Determines:
+       - CPU
+       - RAM
+       - Performance
+
+    Example:
+       - t2.micro (Free tier)
+
+11. Accessing EC2-
+    -> We can connect using:
+       - AWS Dashboard terminal
+       - SSH
+       - PuTTY
+
+12. Nginx-
+    -> Web server software used to host websites.
+    -> Installed on EC2 instance to make website accessible through browser.
+
+13. Practical Understanding of EC2-
+    -> EC2 is used to run applications on cloud.
+    -> Terminal is used to manage and control server.
+    -> Security groups control access to application.
+    -> Dashboard is used to manage server settings.
+    -> Terminal is used to use and configure server.
+
+14. What I Did Practically-
+    -> Created EC2 instance
+    -> Selected AMI and instance type
+    -> Configured security groups
+    -> Connected through PuTTY
+    -> Accessed EC2 terminal
+    -> Installed Nginx
+    -> Hosted webpage using public IP 
+    
